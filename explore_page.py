@@ -3,6 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+with st.container():
+    st.image('logo.png')
+    st.write("[< Volver a Machine Learning](https://web-casgroup-capacitacion.herokuapp.com/py-ml)")
+
+
 def shorten_categories(categories, cutoff):
     categorical_map = {}
     for i in range(len(categories)):

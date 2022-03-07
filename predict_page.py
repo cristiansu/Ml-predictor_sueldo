@@ -2,6 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 
+with st.container():
+    st.image('logo.png')
+    st.write("[< Volver a Machine Learning](https://web-casgroup-capacitacion.herokuapp.com/py-ml)")
+
 
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
