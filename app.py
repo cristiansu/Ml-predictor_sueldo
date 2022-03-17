@@ -2,6 +2,12 @@ import streamlit as st
 from predict_page import show_predict_page
 from explore_page import show_explore_page
 
+
+st.set_page_config(
+    page_title = 'DataScience y ML',
+    page_icon = '📊'
+)
+
 page=st.sidebar.selectbox('Explorar Data o Predicción Sueldo', ('Predicción','Data'))
 
 with st.container():

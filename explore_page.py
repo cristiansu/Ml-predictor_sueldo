@@ -70,7 +70,7 @@ def load_data():
 df=load_data()
 
 def show_explore_page():
-    st.title('Exploración Data Modelo')
+    st.title('Exploración Data Modelo 📈')
 
     st.write("""### Información Stack Overflow Developer Survey 2018""")
 

@@ -15,7 +15,7 @@ le_education = data["le_education"]
 
 
 def show_predict_page():
-    st.title('Predictor Sueldo Software Developer')
+    st.title('Predictor Sueldo Software Developer 💸')
 
     st.write("""### Información Requerida para Predicción Sueldo""")
 
